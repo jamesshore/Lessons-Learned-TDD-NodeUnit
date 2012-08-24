@@ -20,6 +20,7 @@
 		if (!passed) fail("Lint failed");
 	});
 
+
 	desc("Test everything");
 	task("test", [], function () {
 		var testFiles = new jake.FileList();
@@ -32,6 +33,8 @@
 			complete();
 		});
 	}, {async:true});
+
+
 
 	function nodeLintOptions() {
 		return {

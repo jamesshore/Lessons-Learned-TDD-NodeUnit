@@ -1,4 +1,4 @@
-/* Copyright (c) 2012 James Shore - See README.txt for license */
+// Copyright (c) 2012 Titanium I.T. LLC. All rights reserved. See LICENSE.txt for details.
 "use strict";
 
 var jshint = require("jshint").JSHINT;
